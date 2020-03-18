@@ -635,10 +635,8 @@ a {
 
 @media screen and (max-width: 700px) {
   .footer {
-    height: 206px; }
-    .footer__logo {
-      -webkit-transform: translate(-50%, 160%);
-              transform: translate(-50%, 160%); } }
+    height: 206px;
+    padding-bottom: 24px; } }
 
 .logo {
   display: -webkit-box;
