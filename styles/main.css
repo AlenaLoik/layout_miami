@@ -615,6 +615,12 @@ a {
             flex-direction: column; } }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   max-width: 3200px;
   background-image: url(../images/footer.jpg);
   background-size: cover;
@@ -624,8 +630,8 @@ a {
   padding-bottom: 40px;
   height: 359px; }
   .footer__logo {
-    -webkit-transform: translate(-50%, 250%);
-            transform: translate(-50%, 250%); }
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
 
 @media screen and (max-width: 700px) {
   .footer {
