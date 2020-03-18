@@ -76,6 +76,8 @@ a {
     .header__phone a:last-child {
       visibility: hidden; }
   .header__logo {
+    width: 115px;
+    height: 76px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -125,6 +127,9 @@ a {
 @media screen and (max-width: 700px) {
   .header {
     padding: 0 20px 80px; }
+    .header__logo {
+      width: 73px;
+      height: 48px; }
     .header__line {
       margin-top: 200px; }
     .header__title {
@@ -634,6 +639,9 @@ a {
   padding: 56px 100px;
   padding-bottom: 40px;
   height: 359px; }
+  .footer__logo {
+    width: 115px;
+    height: 76px; }
 
 @media screen and (max-width: 700px) {
   .footer {
