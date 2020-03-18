@@ -212,7 +212,7 @@ a {
     margin-bottom: 3px;
     background: #fff;
     border-radius: 2px;
-    z-index: 1;
+    z-index: 2;
     -webkit-transform-origin: 2px 0;
             transform-origin: 2px 0;
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1) opacity 0.55s;
@@ -576,7 +576,8 @@ a {
   .contact-us p {
     font-size: 16px;
     line-height: 27px;
-    color: #3e3e3e; }
+    color: #3e3e3e;
+    width: 250px; }
   .contact-us__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -636,7 +637,10 @@ a {
 @media screen and (max-width: 700px) {
   .footer {
     height: 206px;
-    padding-bottom: 24px; } }
+    padding-bottom: 24px; }
+    .footer__logo {
+      width: 77px;
+      height: 50px; } }
 
 .logo {
   display: -webkit-box;
@@ -650,7 +654,7 @@ a {
 
 @media screen and (max-width: 700px) {
   .logo {
-    max-width: 73px;
-    min-height: 48px; } }
+    width: 73px;
+    height: 48px; } }
 
 /*# sourceMappingURL=main.css.map */
