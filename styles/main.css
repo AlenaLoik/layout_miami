@@ -76,6 +76,7 @@ a {
     .header__phone a:last-child {
       visibility: hidden; }
   .header__logo {
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     z-index: 3; }
@@ -212,7 +213,7 @@ a {
     margin-bottom: 3px;
     background: #fff;
     border-radius: 2px;
-    z-index: 2;
+    z-index: 3;
     -webkit-transform-origin: 2px 0;
             transform-origin: 2px 0;
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1) opacity 0.55s;
@@ -622,6 +623,9 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 3200px;
   background-image: url(../images/footer.jpg);
   background-size: cover;
@@ -630,14 +634,11 @@ a {
   padding: 56px 100px;
   padding-bottom: 40px;
   height: 359px; }
-  .footer__logo {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); }
 
 @media screen and (max-width: 700px) {
   .footer {
     height: 206px;
-    padding-bottom: 24px; }
+    padding: 24px 0; }
     .footer__logo {
       width: 77px;
       height: 50px; } }
@@ -646,11 +647,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 115px;
-  min-height: 76px;
-  position: absolute;
-  left: 50%;
-  margin-right: -50%; }
+  width: 115px;
+  height: 76px;
+  position: absolute; }
 
 @media screen and (max-width: 700px) {
   .logo {
